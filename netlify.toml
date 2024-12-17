@@ -1,0 +1,29 @@
+# Redirect the Home route
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+# Redirect the Departments route
+[[redirects]]
+  from = "/departments"
+  to = "/index.html"
+  status = 200
+
+# Redirect the Doctors route
+[[redirects]]
+  from = "/doctors"
+  to = "/index.html"
+  status = 200
+
+# Redirect the Appointments route
+[[redirects]]
+  from = "/appointments"
+  to = "/index.html"
+  status = 200
+
+# Catch-all redirect for other client-side routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
