@@ -6,7 +6,7 @@ const Home = () => {
     const [doctors, setDoctors] = useState([]);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    // Background images array for the hero section
+    // Background images array for the 
     const backgroundImages = [
         'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Yxy2DcMSbA2u5VLf8gIHUwHaFF%26pid%3DApi&f=1',
         'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rTMKLrxuJeaRdB5U3WZO2QHaGF%26pid%3DApi&f=1',
@@ -70,7 +70,8 @@ const Home = () => {
 
     return (
         <div>
-            {/* Hero Section */}
+            {/*  */}
+            <h1></h1>
             <div
                 className="relative bg-cover bg-center h-[80vh] text-white transition-all duration-1000 ease-in-out"
                 style={{
@@ -98,6 +99,7 @@ const Home = () => {
             </div>
 
             {/* Core Medical Services Section */}
+            <h1>Core Medical Services Section</h1>
             <h2 className="text-3xl font-bold text-center mt-12 mb-6">Our Key Medical Services</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-8 max-w-screen-xl mx-auto">
                 <div className="bg-white shadow-lg rounded-lg p-6 text-center">
@@ -123,6 +125,7 @@ const Home = () => {
             </div>
 
             {/* Meet Our Doctors */}
+            <h1>Meet Our Doctors</h1>
             <h2 className="text-3xl font-bold text-center mt-16 mb-6">Meet Our Doctors</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-8 max-w-screen-xl mx-auto">
                 {doctors.map((doctor, index) => (
